@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html {
+        font-size:62.5%;
+    }
+
+    * {
+        font-family: 'Bebas Neue', 'cursive';
+        line-height:normal;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;    
+    }
+
+    h1 {
+       @apply text-8xl	font-normal	
+    }
+
+    h2 {
+        
+        @apply text-black text-8xl	font-normal	
+    }
+
+    h3 {
+        @apply text-black text-7xl	font-normal	
+    }
+}
+
+@layer components {
+    
+      
+  }
+
+
+@media (max-width:800px) {
+    .navbar {
+        position:absolute;
+        top:99%;
+        left: 0;
+        right: 0;
+        background:#FFFFFF;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all .2s linear;
+    }
+
+    .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .mobile-view {
+        display: block;
+        margin: 2rem 1rem;
+    }
+}
