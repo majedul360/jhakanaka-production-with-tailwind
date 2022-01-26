@@ -12,7 +12,9 @@
     }
 
     p {
-        font-family: 'Montserrat', sans-serif;    
+        font-family: 'Montserrat', sans-serif; 
+        font-size:1.7rem;   
+        line-height:3rem;
     }
 
     h1 {
@@ -25,12 +27,14 @@
     }
 
     h3 {
-        @apply text-black text-7xl	font-normal	
+        @apply text-black text-5xl	font-normal	
     }
 }
 
 @layer components {
-    
+    .btn {
+        @apply border-2 border-black py-4 px-8 text-3xl inline-block mt-4
+    }
       
   }
 

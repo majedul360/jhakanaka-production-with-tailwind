@@ -434,6 +434,8 @@ html {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size:1.7rem;
+  line-height:3rem;
 }
 
 h1 {
@@ -451,7 +453,7 @@ h2 {
 }
 
 h3 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 400;
   --tw-text-opacity: 1;
@@ -547,6 +549,20 @@ h3 {
   }
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(19 19 19 / var(--tw-border-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -568,6 +584,11 @@ h3 {
   z-index: 50;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -580,6 +601,18 @@ h3 {
   display: flex;
 }
 
+.min-h-\[65rem\] {
+  min-height: 65rem;
+}
+
+.min-h-\[60rem\] {
+  min-height: 60rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .items-center {
   align-items: center;
 }
@@ -589,9 +622,17 @@ h3 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.bg-\[url\(\'\.\.\/images\/banner\.jpg\'\)\] {
+  background-image: url('../images/banner.jpg');
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-5xl {
@@ -602,6 +643,16 @@ h3 {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(254 204 2 / var(--tw-text-opacity));
 }
 
 @media (max-width:800px) {
