@@ -23,17 +23,21 @@
 
     h2 {
         
-        @apply text-black text-8xl	font-normal	
+        @apply text-black text-7xl	font-normal	
     }
 
     h3 {
         @apply text-black text-5xl	font-normal	
     }
+
+    section {
+        padding:5rem 0;
+    }
 }
 
 @layer components {
     .btn {
-        @apply border-2 border-black py-4 px-8 text-3xl inline-block mt-4
+        @apply border-2 border-black py-4 px-8 text-3xl inline-block mt-8
     }
       
   }
@@ -56,6 +60,6 @@
 
     .mobile-view {
         display: block;
-        margin: 2rem 1rem;
+        margin: 2rem 1.5rem;
     }
 }
