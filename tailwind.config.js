@@ -10,6 +10,7 @@ module.exports = {
         black:' #131313',
         gray:' #4E4E4E',
       },
+      
       container: {
         padding: {
           DEFAULT: '1rem',
